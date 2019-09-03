@@ -13,6 +13,7 @@
 		58247C4C231EF4DB003E2E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58247C4A231EF4DB003E2E12 /* LaunchScreen.storyboard */; };
 		58247C57231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C56231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift */; };
 		58247C64231EF665003E2E12 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C63231EF665003E2E12 /* CountriesViewController.swift */; };
+		58247C66231F0862003E2E12 /* CountriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C65231F0862003E2E12 /* CountriesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		58247C56231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Concurrency_LabTests.swift; sourceTree = "<group>"; };
 		58247C58231EF4DB003E2E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58247C63231EF665003E2E12 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		58247C65231F0862003E2E12 /* CountriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				58247C41231EF4DA003E2E12 /* AppDelegate.swift */,
+				58247C67231F0869003E2E12 /* Models */,
 				58247C62231EF621003E2E12 /* Controllers */,
 				58247C61231EF619003E2E12 /* Views */,
 				58247C48231EF4DB003E2E12 /* Assets.xcassets */,
@@ -109,6 +112,15 @@
 			children = (
 				58247C63231EF665003E2E12 /* CountriesViewController.swift */,
 			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		58247C67231F0869003E2E12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58247C65231F0862003E2E12 /* CountriesModel.swift */,
+			);
+			name = Models;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -214,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58247C42231EF4DA003E2E12 /* AppDelegate.swift in Sources */,
+				58247C66231F0862003E2E12 /* CountriesModel.swift in Sources */,
 				58247C64231EF665003E2E12 /* CountriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
