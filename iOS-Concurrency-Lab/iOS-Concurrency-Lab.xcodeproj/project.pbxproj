@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		58247C42231EF4DA003E2E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C41231EF4DA003E2E12 /* AppDelegate.swift */; };
-		58247C44231EF4DA003E2E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C43231EF4DA003E2E12 /* ViewController.swift */; };
 		58247C47231EF4DA003E2E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58247C45231EF4DA003E2E12 /* Main.storyboard */; };
 		58247C49231EF4DB003E2E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58247C48231EF4DB003E2E12 /* Assets.xcassets */; };
 		58247C4C231EF4DB003E2E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58247C4A231EF4DB003E2E12 /* LaunchScreen.storyboard */; };
 		58247C57231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C56231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift */; };
+		58247C64231EF665003E2E12 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C63231EF665003E2E12 /* CountriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		58247C3E231EF4DA003E2E12 /* iOS-Concurrency-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Concurrency-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58247C41231EF4DA003E2E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58247C43231EF4DA003E2E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58247C46231EF4DA003E2E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58247C48231EF4DB003E2E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58247C4B231EF4DB003E2E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		58247C52231EF4DB003E2E12 /* iOS-Concurrency-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Concurrency-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58247C56231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Concurrency_LabTests.swift; sourceTree = "<group>"; };
 		58247C58231EF4DB003E2E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58247C63231EF665003E2E12 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				58247C41231EF4DA003E2E12 /* AppDelegate.swift */,
-				58247C43231EF4DA003E2E12 /* ViewController.swift */,
-				58247C45231EF4DA003E2E12 /* Main.storyboard */,
+				58247C62231EF621003E2E12 /* Controllers */,
+				58247C61231EF619003E2E12 /* Views */,
 				58247C48231EF4DB003E2E12 /* Assets.xcassets */,
 				58247C4A231EF4DB003E2E12 /* LaunchScreen.storyboard */,
 				58247C4D231EF4DB003E2E12 /* Info.plist */,
@@ -94,6 +94,22 @@
 				58247C58231EF4DB003E2E12 /* Info.plist */,
 			);
 			path = "iOS-Concurrency-LabTests";
+			sourceTree = "<group>";
+		};
+		58247C61231EF619003E2E12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58247C45231EF4DA003E2E12 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58247C62231EF621003E2E12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58247C63231EF665003E2E12 /* CountriesViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58247C44231EF4DA003E2E12 /* ViewController.swift in Sources */,
 				58247C42231EF4DA003E2E12 /* AppDelegate.swift in Sources */,
+				58247C64231EF665003E2E12 /* CountriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
