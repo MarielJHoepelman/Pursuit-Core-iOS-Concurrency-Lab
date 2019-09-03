@@ -15,7 +15,7 @@ class CountriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         countriesTableView.delegate = self
-        countriesTableView.dataSource = self 
+        countriesTableView.dataSource = self
     }
 
 }
@@ -26,10 +26,11 @@ extension CountriesViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = countriesTableView.dequeueReusableCell(withIdentifier: "countryCell")
+        cell?.textLabel?.text = "test"
+        cell?.textLabel?.numberOfLines = 0
+        return cell!
     }
-    
-    
 }
 
 extension CountriesViewController: UITableViewDelegate {
