@@ -10,6 +10,20 @@ import Foundation
 import UIKit
 
 struct Countries: Codable {
+    let countries: [Country]
+    
+    static func getCountry(data: Data) -> Countries? {
+        do {
+            let country = try JSONDecoder().decode(Countries.self, from: data)
+            return country
+        } catch {//catching errors thrown -> "error"
+            print("couldn't decode \(error)")
+            return nil
+        }
+    }
+}
+
+struct Country: Codable {
     let name: String
     let flag: String
     let capital: String
