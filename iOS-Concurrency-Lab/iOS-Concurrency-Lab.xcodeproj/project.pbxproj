@@ -14,6 +14,7 @@
 		58247C57231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C56231EF4DB003E2E12 /* iOS_Concurrency_LabTests.swift */; };
 		58247C64231EF665003E2E12 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C63231EF665003E2E12 /* CountriesViewController.swift */; };
 		58247C66231F0862003E2E12 /* CountriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C65231F0862003E2E12 /* CountriesModel.swift */; };
+		58247C69231F0D09003E2E12 /* FetchDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247C68231F0D09003E2E12 /* FetchDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		58247C58231EF4DB003E2E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58247C63231EF665003E2E12 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		58247C65231F0862003E2E12 /* CountriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesModel.swift; sourceTree = "<group>"; };
+		58247C68231F0D09003E2E12 /* FetchDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		58247C67231F0869003E2E12 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				58247C68231F0D09003E2E12 /* FetchDataModel.swift */,
 				58247C65231F0862003E2E12 /* CountriesModel.swift */,
 			);
 			name = Models;
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58247C69231F0D09003E2E12 /* FetchDataModel.swift in Sources */,
 				58247C42231EF4DA003E2E12 /* AppDelegate.swift in Sources */,
 				58247C66231F0862003E2E12 /* CountriesModel.swift in Sources */,
 				58247C64231EF665003E2E12 /* CountriesViewController.swift in Sources */,
