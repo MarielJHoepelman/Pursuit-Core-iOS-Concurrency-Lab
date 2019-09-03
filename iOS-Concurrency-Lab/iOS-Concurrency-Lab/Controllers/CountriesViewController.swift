@@ -10,9 +10,28 @@ import UIKit
 
 class CountriesViewController: UIViewController {
 
+    @IBOutlet weak var countriesTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        countriesTableView.delegate = self
+        countriesTableView.dataSource = self 
     }
 
+}
+
+extension CountriesViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    
+}
+
+extension CountriesViewController: UITableViewDelegate {
+    
 }
