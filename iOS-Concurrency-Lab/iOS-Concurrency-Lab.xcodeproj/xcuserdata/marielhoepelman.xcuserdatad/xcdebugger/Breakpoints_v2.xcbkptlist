@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-Concurrency-Lab/Controllers/FetchDataModel.swift"
+            timestampString = "589260020.970655"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "APIClient"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_A82232C30AA3CC4E55C664EA7E18C84C_func0"
+                  moduleName = "iOS-Concurrency-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marielhoepelman/pursuit/Pursuit-Core-iOS-Concurrency-Lab/iOS-Concurrency-Lab/iOS-Concurrency-Lab/Controllers/FetchDataModel.swift"
+                  timestampString = "589254201.785164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_Concurrency_Lab.APIClient.shared.unsafeMutableAddressor : iOS_Concurrency_Lab.APIClient"
+                  moduleName = "iOS-Concurrency-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marielhoepelman/pursuit/Pursuit-Core-iOS-Concurrency-Lab/iOS-Concurrency-Lab/iOS-Concurrency-Lab/Controllers/FetchDataModel.swift"
+                  timestampString = "589254201.789397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-Concurrency-Lab/Controllers/CountriesViewController.swift"
+            timestampString = "589260020.970749"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
